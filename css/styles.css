@@ -1,0 +1,82 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #9d9c9c;
+  border-radius: 0;
+  margin-bottom: 0;
+  border: 3px solid black;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -3px;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: -1px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+.contenedor_menu {
+  text-align: center;
+  margin-top: 20px;
+  color: #000;
+}
+
+.contenedor_texto {
+  text-align: center;
+  margin-top: 20px;
+  color: #000;
+  background-color: rgb(189, 186, 186);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+
